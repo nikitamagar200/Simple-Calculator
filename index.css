@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	
+}
+body{
+	background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.calci{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.calci .calculatorForm{
+	position: relative;
+	height: 450px;
+	width: 400px;
+	border:1px solid #000;
+}
+.calci .calculatorForm div{
+	height: calc(450px/6);
+	width: 100%;
+	display: flex;
+	flex:1;
+}
+.calci .calculatorForm div input{
+	height: 100%;
+	width: 100%;
+	font-size: 2.5em;
+	font-weight: 600;
+}
